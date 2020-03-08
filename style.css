@@ -1,3 +1,28 @@
 body {
     background-color:#aeeff0;
 }
+
+img {
+    float:left;
+    margin-left: 400px;
+    border-radius: 150px;
+    /* margin-right: auto; */
+
+}
+.info {
+    float: right;
+    margin-right: 500px;
+}
+
+.status{
+    clear:both;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.proglang p{
+    margin: 0px;
+}
