@@ -1,28 +1,38 @@
-body {
-    background-color:#aeeff0;
-}
+body { /* for centering the whole web page i.e body pf the web page*/
+    /* background-color:#aeeff0; */
+    margin: auto;
+    width: 50%;
+    text-align: center;
+ }
 
-img {
+img { /* For dispalying the image with rounded corners and folating the element to the left */
     float:left;
-    margin-left: 400px;
     border-radius: 150px;
-    /* margin-right: auto; */
-
-}
-.info {
+} 
+.info { /* for dispalying the contents next to the image i.e floating the contents to the right*/
     float: right;
-    margin-right: 500px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-.status{
+
+.status{ /*for clearing the float property so that the contents will not be wrapped besides the image */
     clear:both;
     padding-top: 10px;
 }
 
-.center {
-    text-align: center;
-}
+
 
 .proglang p{
     margin: 0px;
+}
+
+hr {
+    width: 700px;
+    height: 4px;
+    background-color: black;
+}
+
+p {
+    text-align: center;
 }
